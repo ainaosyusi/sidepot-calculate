@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #35654d;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#table {
+    margin: 20px auto;
+    width: 800px;
+    height: 400px;
+    background-color: #2a4a35;
+    border-radius: 50%;
+    position: relative;
+}
+
+.player {
+    position: absolute;
+    width: 100px;
+    text-align: center;
+}
+
+.chip-stack {
+    background-color: #ffcc00;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-weight: bold;
+    color: #000;
+}
+
+.player-name {
+    margin-top: 5px;
+}
+
+.bet-amount {
+    margin-top: 5px;
+    color: #ffcc00;
+}
+
+#action-log {
+    margin: 20px;
+}
+
+#action-log ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#action-log li {
+    text-align: left;
+    margin: 5px 0;
+}
+
+#pot-calculation {
+    margin: 20px;
+}
+
+#pot-calculation form {
+    display: inline-block;
+}
+
+#pot-inputs {
+    margin-bottom: 20px;
+}
+
+.pot-input {
+    margin: 10px 0;
+}
+
+#result {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#next-hand {
+    margin-top: 20px;
+}
